@@ -1,0 +1,50 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e9fdfd;
+}
+
+#navbar {
+	background-color: #3B82F6;
+	width: 100%;
+}
+
+.nav-link {
+	color: black;
+	font-weight: bolder;
+}
+
+.card {
+	width: 25rem;
+	height: 100%;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	border-radius: 15px;
+	white-space: normal;
+	justify-content: center
+	border: 10px solid black;
+
+}
+
+#tools-1 img {
+	width: 120px;
+	height: 120px;
+}
+
+#tools-2 img {
+	width: 120px;
+	height: 120px;
+}
+
+#tools-3 img {
+	width: 120px;
+	height: 120px;
+}
