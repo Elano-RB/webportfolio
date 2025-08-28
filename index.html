@@ -11,9 +11,9 @@
 	<title>Full Stack Web Developer</title>
 </head>
 <body>
-	<div class="container py-5">
+	<div class="container-fluid">
 		<nav>		
-			<div id="navbar" class="d-flex justify-content-center d-grid gap-2">
+			<div id="navbar" class="d-flex justify-content-center d-grid gap-2 fixed-top">
 				<div class="nav-item">
 					<a class="nav-link" href="#landing">Home</a>
 				</div>
@@ -29,7 +29,7 @@
 			</div>			
 		</nav>
 
-		<section id="landing" class="container my-5">
+		<section id="landing" class="container">
 			<div class="row mx-auto">
 				<div class="col-lg-6">
 					<img src="./images/elano2.jpg" class="shadow img-fluid rounded-circle">
@@ -44,20 +44,19 @@
 	
 
 
-		<section id="projects">
+		<section id="projects" class="container">
 			<h2 class="text-center my-5">My Projects</h2>
-			<div class="row justify-content-center rounded-1">
-
-				<div class="d-flex col-md-6 col-lg-4">
-					<div class="card">
+			<div class="cards-container d-flex row justify-content-center align-items-stretch rounded-1">
+				<div class="card-container col-md-6 col-lg-4">
+					<div class="card">						
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">E-commerce API Documentation</h5>
 							<p class="card-text">Dynamic E-Commerce Workflow Management. This system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
-						</div>
+						</div>					
 					</div>
 				</div>
-				<div class="d-flex col-md-6 col-lg-4">
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -66,7 +65,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex col-md-6 col-lg-4">
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -75,9 +74,7 @@
 						</div>
 					</div>
 				</div>
-
-
-				<div class="d-flex col-md-6 col-lg-4">
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -86,7 +83,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex col-md-6 col-lg-4">
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -95,8 +92,7 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="d-flex col-md-6 col-lg-4">	
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -105,8 +101,7 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="d-flex col-md-6 col-lg-4">	
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -115,8 +110,7 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="d-flex col-md-6 col-lg-4">	
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -125,8 +119,7 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="d-flex col-md-6 col-lg-4">	
+				<div class="card-container col-md-6 col-lg-4">
 					<div class="card">
 						<img src="./images/ECom.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -138,51 +131,42 @@
 			</div>
 		</section>
 
-		<section id="tools" class="container border">
+		<section id="tools" class="container">
 			<h2 class="text-center my-5">Tools</h2>
-			<div class="row">
-				<div id="other-tools" class="d-flex flex-md-row flex-column justify-content-center">
-					<div>
-						<h3 class="text-center mt-3">Frontend</h3>
-	                    <div id="tools-1" class="d-flex border justify-content-center">
-	                    	<div class="col-md-3">
-		                        <img src="./images/logo-html5.png"/>
-		                        <img src="./images/logo-css3.png"/>
-		                    </div>
-		                    <div class="col-md-3">   
-		                        <img src="./images/logo-bootstrap.png"/>
-		                        <img src="./images/logo-javascript.png"/>
-	                        </div>	                  
-	                    </div>
-	                </div>
-                    <div>
-						<h3 class="text-center mt-3">Mern</h3>
-	                    <div id="tools-2" class="d-flex border justify-content-center">
-	                    	<div class="col-md-3">
-		                        <img src="./images/logo-mongodb.png"/>
-		                        <img src="./images/logo-expressjs.png"/>
-	                    	</div>
-	                        <div class="col-md-3">
-		                        <img src="./images/logo-react.png"/>
-		                        <img src="./images/logo-nodejs.png"/>
-	                        </div>	                  	
-	                    </div>
-	                </div>
-	                <div>
-						<h3 class="text-center mt-3">Other Tools</h3>
-	                    <div id="tools-3" class="d-flex border justify-content-center">
-	                    	<div class="col-md-3">
-		                        <img src="./images/logo-heroku.png"/>
-		                        <img src="./images/logo-git.png"/>
-		                    </div>
-		                    <div class="col-md-3">
-		                        <img src="./images/logo-postman.png"/>
-		                        <img src="./images/logo-sublime-text-3.png"/>
-		                    </div>   	
-	                    </div>
+			
+			<div id="other-tools" class="d-flex flex-md-row flex-column justify-content-center w-75 m-auto">
+				<div class="frontend-container d-flex flex-column col-12 col-md-4">
+					<h3 class="text-center mt-3">Frontend</h3>
+                    <div id="tools-1" class="d-flex flex-wrap justify-content-center">                    	
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-html5.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-css3.png"/></div>                 
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-bootstrap.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-javascript.png"/></div>
 	                </div>
                 </div>
-			</div>			
+                <div class="mern-container d-flex flex-column col-12 col-md-4">
+					<h3 class="text-center mt-3">Mern</h3>
+                    <div id="tools-2" class="d-flex flex-wrap justify-content-center">
+                    	
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-mongodb.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-expressjs.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-react.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-nodejs.png"/></div>
+                        	                  	
+                    </div>
+                </div>
+                <div class="ot-container d-flex flex-column col-12 col-md-4">
+					<h3 class="text-center mt-3">Other Tools</h3>
+                    <div id="tools-3" class="d-flex flex-wrap justify-content-center">                    	
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-heroku.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-git.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-postman.png"/></div>
+	                        <div class="w-50 object-fit-cover text-center"><img src="./images/logo-sublime-text-3.png"/></div>
+	                      	
+                    </div>
+                </div>
+            </div>
+						
 		</section>
 
 		<section id="contact">
@@ -218,8 +202,8 @@
 									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZfLuviePOqQJ1yuhvxr80AsqV91Btr2rqZw&s" class="img-fluid rounded m-2" width="30" height="30">
 								</a>
 							</div>
-							<div class="col-6">
-								<button type="button" class="col-12 text-dark btn btn-outline-light bg-light mt-2" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
+							<div class="col-6 text-end">
+								<button type="button" class="w-25 text-dark btn btn-outline-light bg-light mt-2" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
 							</div>
 						</div>
 					</form>

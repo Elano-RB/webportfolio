@@ -23,14 +23,11 @@ body {
 }
 
 .card {
-	width: 25rem;
 	height: 100%;
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 	padding: 1rem;
 	border-radius: 15px;
-	white-space: normal;
-	justify-content: center
-	border: 10px solid black;
+	height: 550px;
 
 }
 
@@ -47,4 +44,16 @@ body {
 #tools-3 img {
 	width: 120px;
 	height: 120px;
+}
+
+#landing {
+	margin-top: 10em;
+}
+
+.cards-container {
+	row-gap: 2em;
+}
+
+.card-container {
+	padding: 0 1em;
 }
