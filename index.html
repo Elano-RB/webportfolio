@@ -12,21 +12,29 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<nav>		
-			<div id="navbar" class="d-flex justify-content-center d-grid gap-2 fixed-top">
-				<div class="nav-item">
-					<a class="nav-link" href="#landing">Home</a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="navbar-nav gap-2">
+						<li class="nav-item">
+							<a class="nav-link" href="#landing">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#tools">Tools</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contacts</a>
+						</li>
+					</ul>
 				</div>
-				<div class="nav-item">
-					<a class="nav-link" href="#projects">Projects</a>
-				</div>
-				<div class="nav-item">
-					<a class="nav-link" href="#tools">Tools</a>
-				</div>
-				<div class="nav-item">
-					<a class="nav-link" href="#contact">Contacts</a>
-				</div>
-			</div>			
+			</div>
 		</nav>
 
 		<section id="landing" class="container">
@@ -165,8 +173,7 @@
 	                      	
                     </div>
                 </div>
-            </div>
-						
+            </div>						
 		</section>
 
 		<section id="contact">
@@ -202,14 +209,17 @@
 									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZfLuviePOqQJ1yuhvxr80AsqV91Btr2rqZw&s" class="img-fluid rounded m-2" width="30" height="30">
 								</a>
 							</div>
-							<div class="col-6 text-end">
-								<button type="button" class="w-25 text-dark btn btn-outline-light bg-light mt-2" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
+							<div class="col-6 d-flex justify-content-end">
+								<button type="button" class="text-dark btn btn-outline-light bg-light mt-2 px-4" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
 							</div>
 						</div>
 					</form>
 				</div>
 			</div>	
 		</section>
+
+	</div>
+
 
 		<footer id="footer" class="bg-primary text-white d-flex justify-content-center d-grid gap-3 py-3">
             <div>&copy;  2025 My Website.</div>
@@ -218,7 +228,7 @@
         </footer>
 
 
-	</div>
+	
 
 
 
